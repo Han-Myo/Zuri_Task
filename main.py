@@ -4,7 +4,7 @@
 # --> {"cake":2, "big":1, "is":2, "the":1, "a":1, "it":1}
 from itertools import count 
 
-def read_file_content(filename):
+def read_file_content("story.txt"):
     # [assignment] Add your code here 
     file = open("./story.txt", "r")
     print(file.read())
