@@ -14,7 +14,7 @@ def read_file_content("story.txt"):
     read_file_content("story.txt")
 
 
-def count_words():
+def count_words(words,text):
     text = read_file_content("./story.txt")
     # [assignment] Add your code here
 
